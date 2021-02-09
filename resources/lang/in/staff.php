@@ -1,0 +1,16 @@
+<?php return [
+    "Edit/Create Users"=>"Edit / Buat Pengguna",
+    "Create Staff"=>"Buat Staf",
+    "Staff Name"=>"Nama staf",
+    "Email"=>"E-mail",
+    "Password"=>"Kata sandi",
+    "User Department"=>"Departemen Pengguna",
+    "User Roles"=>"Peran Pengguna",
+    "You are not allowed to edit this this is displayed here for information purposes"=>"Anda tidak diperbolehkan untuk mengedit ini ditampilkan di sini untuk tujuan informasi",
+    "Name"=>"Nama",
+    "Description"=>"Deskripsi",
+    "Date Created"=>"Tanggal Diciptakan",
+    "Date Updates"=>"Pembaruan Tanggal",
+    "Staff"=>"Staf",
+    "View Staff Details"=>"Lihat Rincian Staf",
+];

@@ -1,0 +1,18 @@
+<?php return [
+    "Edit/Create Users"=>"Bewerk / cre&euml;er gebruikers",
+    "Create Staff"=>"Maak personeel aan",
+    "Staff Name"=>"Personeelsnaam",
+    "Email"=>"E-mail",
+    "Password"=>"Wachtwoord",
+    "User Department"=>"Gebruikersafdeling",
+    "User Roles"=>"Gebruikersrollen",
+    "You are not allowed to edit this this is displayed here for information purposes"=>"U mag dit niet bewerken. Dit wordt hier weergegeven voor informatiedoeleinden",
+    "Name"=>"Naam",
+    "Description"=>"Beschrijving",
+    "Date Created"=>"Datum gecree&euml;rd",
+    "Date Updates"=>"Datum Updates",
+    "Staff"=>"Personeel",
+    "View Staff Details"=>"Bekijk personeelsdetails",
+    "Edit/Create Users"=>"Bewerk / cre&amp;euml;er gebruikers",
+    "Date Created"=>"Datum gecree&amp;euml;rd",
+];

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="advanceinventory" default="dist">
+    <property name="newhash" value="fa1898550c1b585d3a84e4467a4f2333b450d785"/>
+    <property name="oldhash" value="d7df88b4922cdbc301ecbab555ff483b7e4e1495"/>
+    <property name="tag" value="v4.0.6"/>
+    <!-- ============================================  -->
+    <!-- Target: prepare                               -->
+    <!-- ============================================  -->
+    <target name="prepare">
+
+        <if>
+            <available file='../PatchFile' property="Patch_File_Exists"/>
+            <then>
+                <echo msg="Patch File Exists"/>
+            </then>
+            <else>
+                <fail message="No Patch File Will not build"/>
+            </else>
+        </if>
+
+        <if>
+            <available file='./stockawesome_demo.sql' property="Patch_File_Exists"/>
+            <then>
+                <echo msg="Demo Database Exists"/>
+            </then>
+            <else>
+                <fail message="No Demo Database File"/>
+            </else>
+        </if>
+        <echo msg="Starting Build Process"/>
+        <delete dir="../StockAwesome_Deploy" />
+        <mkdir dir="../StockAwesome_Deploy"/>
+        <mkdir dir="../StockAwesome_Deploy/Application"/>
+        <mkdir dir="../StockAwesome_Deploy/Documentation"/>
+        <mkdir dir="../StockAwesome_Deploy/DemoData"/>
+        <mkdir dir="../StockAwesome_Deploy/ReleaseNotes"/>
+        <mkdir dir="../StockAwesome_Deploy/Licenses"/>
+
+    </target>
+
+
+    <!-- ============================================  -->
+    <!-- Target: build                                 -->
+    <!-- ============================================  -->
+    <target name="build" depends="prepare">
+        <echo msg="Generating Patch File"/>
+        <copy todir="../StockAwesome_Deploy/ReleaseNotes/PatchFile/application">
+            <fileset dir="../PatchFile">
+                <exclude name="**/.idea/**"/>
+            </fileset>
+        </copy>
+        <copy todir="../StockAwesome_Deploy/ReleaseNotes/PatchFile/">
+            <fileset dir="../PatchFile/public">
+
+            </fileset>
+        </copy>
+
+        <copy todir="../StockAwesome_Deploy/ReleaseNotes/PatchFile/application/vendor">
+            <fileset dir="./vendor">
+
+            </fileset>
+        </copy>
+
+        <echo msg="Zipping Patch File StockAwesome_${tag}_Patch"/>
+        <exec command="c:/7za.exe a -tzip -r ../StockAwesome_Deploy/ReleaseNotes/StockAwesome_${tag}_Patch.zip ../StockAwesome_Deploy/ReleaseNotes/PatchFile/*" dir="."/>
+        <delete dir="../StockAwesome_Deploy/ReleaseNotes/PatchFile" />
+
+
+        <copy file="./ReleaseNotes/StockAwesome_${tag}.docx" todir="../StockAwesome_Deploy/ReleaseNotes" overwrite="true"/>
+        <copy todir="../stockawesomedocs/docs/_assets/ReleaseNotes">
+            <fileset dir="./ReleaseNotes">
+
+            </fileset>
+        </copy>
+
+        <echo msg="Migrating Database with structure Only"/>
+        <exec command="php artisan migrate:refresh"/>
+        <exec command="php artisan db:seed --class=CountryTableSeeder"/>
+
+        <exec command="C:\wamp64\bin\mysql\mysql5.7.14\bin\mysqldump -u root  --databases stockawesome > stockawesome.sql"/>
+
+
+
+
+
+
+        <echo msg="Building Docs"/>
+        <exec command="mkdocs build" dir="../stockawesomedocs"/>
+
+
+        <echo msg="Clearing Cached Files"/>
+        <exec command="php artisan cache:clear" dir="."/>
+        <exec command="php artisan view:clear" dir="."/>
+        <exec command="php artisan clockwork:clean" dir="."/>
+        <exec command="php artisan optimize" dir="."/>
+
+        <echo msg="Copying Documentation Files"/>
+        <copy todir="../StockAwesome_Deploy/Documentation">
+            <fileset dir="../stockawesomedocs/site">
+
+            </fileset>
+        </copy>
+
+        <echo msg="Copying Licenses..."/>
+        <copy todir="../StockAwesome_Deploy/Licenses">
+            <fileset dir="./Licenses">
+
+            </fileset>
+        </copy>
+
+        <echo msg="Copying Application Code"/>
+        <copy todir="../StockAwesome_Deploy/Application/application">
+            <fileset dir=".">
+                <exclude name="**/.idea/**"/>
+            </fileset>
+        </copy>
+        <echo msg="Copying Public Folder"/>
+        <copy todir="../StockAwesome_Deploy/Application">
+            <fileset dir="./public">
+
+            </fileset>
+        </copy>
+
+        <copy todir="../StockAwesome_Deploy/Application" overwrite="true">
+            <fileset dir="./special_files_deploy">
+
+            </fileset>
+        </copy>
+
+
+
+
+        <!-- <copy file="./artisan" tofile="../st_deploy"/> -->
+
+
+    </target>
+
+    <!-- ============================================  -->
+    <!-- (DEFAULT)  Target: dist                       -->
+    <!-- ============================================  -->
+    <target name="dist" depends="build">
+        <echo msg="Creating archive..."/>
+        <exec command="c:/7za.exe a -tzip -r ../StockAwesome_Deploy/StockAwesome_${tag}.zip ../StockAwesome_Deploy/Application/*" dir="."/>
+
+        <echo msg="Deleting Application Folder Code and Creating Folder Structure"/>
+        <delete dir="../StockAwesome_Deploy/Application" />
+        <mkdir dir="../StockAwesome_Deploy/Application/Application"/>
+        <echo msg="Copying Zip to Application Folder"/>
+        <copy file="../StockAwesome_Deploy/StockAwesome_${tag}.zip" todir="../StockAwesome_Deploy/Application/Application" overwrite="true"/>
+
+        <echo msg="Creating Database Folder"/>
+        <mkdir dir="../StockAwesome_Deploy/Application/Database"/>
+        <copy file="stockawesome.sql" todir="../StockAwesome_Deploy/Application/Database" overwrite="true"/>
+        <delete file="stockawesome.sql" />
+
+        <echo msg="Copying Demo Data"/>
+        <copy file="stockawesome_demo.sql" todir="../StockAwesome_Deploy/DemoData" overwrite="true"/>
+        <delete file="stockawesome_demo.sql" />
+
+        <delete file="StockAwesome_PatchFile.zip" />
+        <delete file="../StockAwesome_Deploy/StockAwesome_${tag}.zip" />
+        <exec command="c:/7za.exe a -tzip -r ../StockAwesome_${tag}.zip ../StockAwesome_Deploy/*" dir="."/>
+
+        <echo msg="Build Complete"/>
+    </target>
+</project>

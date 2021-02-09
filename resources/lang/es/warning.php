@@ -1,0 +1,16 @@
+<?php return [
+    "Please set up Roles to unlock all side bar menu items click here"=>"Configura Roles para desbloquear todos los elementos del men&uacute; de la barra lateral, haz clic aqu&iacute;",
+    "Please Import Countries table from Extra Schema, Invoicing and Sales Order will not work without it !!!"=>"&iexcl;&iexcl;&iexcl;Importar tabla de Pa&iacute;ses de Extra Schema, Facturaci&oacute;n y Pedido de Ventas no funcionar&aacute; sin ella !!!",
+    "Please set up Roles Permissions to unlock all menu items"=>"Configura permisos de roles para desbloquear todos los elementos del men&uacute;",
+    "Please set Invoice Order Format in Settings Module."=>"Configure el Formato de orden de factura en el M&oacute;dulo de configuraci&oacute;n.",
+    "Please set Default Currency in Settings Module."=>"Configure Moneda predeterminada en el M&oacute;dulo de configuraci&oacute;n.",
+    "Please set City in Settings Module."=>"Por favor, configure la ciudad en el M&oacute;dulo de configuraci&oacute;n.",
+    "Please set Default LPO Tax Amount in Settings Module."=>"Establezca el Importe de impuesto de LPO predeterminado en el M&oacute;dulo de configuraci&oacute;n.",
+    "Please set up Roles to unlock all side bar menu items click here"=>"Configura Roles para desbloquear todos los elementos del men&amp;uacute; de la barra lateral, haz clic aqu&amp;iacute;",
+    "Please Import Countries table from Extra Schema, Invoicing and Sales Order will not work without it !!!"=>"&amp;iexcl;&amp;iexcl;&amp;iexcl;Importar tabla de Pa&amp;iacute;ses de Extra Schema, Facturaci&amp;oacute;n y Pedido de Ventas no funcionar&amp;aacute; sin ella !!!",
+    "Please set up Roles Permissions to unlock all menu items"=>"Configura permisos de roles para desbloquear todos los elementos del men&amp;uacute;",
+    "Please set Invoice Order Format in Settings Module."=>"Configure el Formato de orden de factura en el M&amp;oacute;dulo de configuraci&amp;oacute;n.",
+    "Please set Default Currency in Settings Module."=>"Configure Moneda predeterminada en el M&amp;oacute;dulo de configuraci&amp;oacute;n.",
+    "Please set City in Settings Module."=>"Por favor, configure la ciudad en el M&amp;oacute;dulo de configuraci&amp;oacute;n.",
+    "Please set Default LPO Tax Amount in Settings Module."=>"Establezca el Importe de impuesto de LPO predeterminado en el M&amp;oacute;dulo de configuraci&amp;oacute;n.",
+];

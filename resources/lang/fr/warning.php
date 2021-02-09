@@ -1,0 +1,16 @@
+<?php return [
+    "Please set up Roles to unlock all side bar menu items click here"=>"Veuillez configurer les r&ocirc;les pour d&eacute;verrouiller tous les &eacute;l&eacute;ments de menu de la barre lat&eacute;rale, cliquez ici",
+    "Please Import Countries table from Extra Schema, Invoicing and Sales Order will not work without it !!!"=>"S&amp;#39;il vous pla&icirc;t importer la table des pays de Extra Schema, Facturation et commande ne fonctionnera pas sans elle!",
+    "Please set up Roles Permissions to unlock all menu items"=>"Veuillez configurer les autorisations de r&ocirc;les pour d&eacute;verrouiller tous les &eacute;l&eacute;ments de menu",
+    "Please set Invoice Order Format in Settings Module."=>"Veuillez d&eacute;finir le format de commande de facture dans le module Param&egrave;tres.",
+    "Please set Default Currency in Settings Module."=>"Veuillez d&eacute;finir la devise par d&eacute;faut dans le module Param&egrave;tres.",
+    "Please set City in Settings Module."=>"Veuillez d&eacute;finir la ville dans le module Param&egrave;tres.",
+    "Please set Default LPO Tax Amount in Settings Module."=>"Veuillez d&eacute;finir le montant de taxe LPO par d&eacute;faut dans le module Param&egrave;tres.",
+    "Please set up Roles to unlock all side bar menu items click here"=>"Veuillez configurer les r&amp;ocirc;les pour d&amp;eacute;verrouiller tous les &amp;eacute;l&amp;eacute;ments de menu de la barre lat&amp;eacute;rale, cliquez ici",
+    "Please Import Countries table from Extra Schema, Invoicing and Sales Order will not work without it !!!"=>"S&amp;amp;#39;il vous pla&amp;icirc;t importer la table des pays de Extra Schema, Facturation et commande ne fonctionnera pas sans elle!",
+    "Please set up Roles Permissions to unlock all menu items"=>"Veuillez configurer les autorisations de r&amp;ocirc;les pour d&amp;eacute;verrouiller tous les &amp;eacute;l&amp;eacute;ments de menu",
+    "Please set Invoice Order Format in Settings Module."=>"Veuillez d&amp;eacute;finir le format de commande de facture dans le module Param&amp;egrave;tres.",
+    "Please set Default Currency in Settings Module."=>"Veuillez d&amp;eacute;finir la devise par d&amp;eacute;faut dans le module Param&amp;egrave;tres.",
+    "Please set City in Settings Module."=>"Veuillez d&amp;eacute;finir la ville dans le module Param&amp;egrave;tres.",
+    "Please set Default LPO Tax Amount in Settings Module."=>"Veuillez d&amp;eacute;finir le montant de taxe LPO par d&amp;eacute;faut dans le module Param&amp;egrave;tres.",
+];

@@ -1,0 +1,16 @@
+<?php return [
+    "Edit/Create Users"=>"Редактировать / создать пользователей",
+    "Create Staff"=>"Создать персонал",
+    "Staff Name"=>"Имя сотрудника",
+    "Email"=>"Эл. адрес",
+    "Password"=>"пароль",
+    "User Department"=>"Отдел пользователей",
+    "User Roles"=>"Роли пользователей",
+    "You are not allowed to edit this this is displayed here for information purposes"=>"Вы не можете редактировать это, это отображается здесь для информационных целей",
+    "Name"=>"имя",
+    "Description"=>"Описание",
+    "Date Created"=>"Дата создания",
+    "Date Updates"=>"Обновления по дате",
+    "Staff"=>"Сотрудники",
+    "View Staff Details"=>"Просмотреть сведения о персонале",
+];

@@ -1,0 +1,7 @@
+*
+!.gitignore
+!products
+!avatar
+!barcodes
+!home_image/
+!home_image/*

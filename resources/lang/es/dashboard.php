@@ -1,0 +1,18 @@
+<?php return [
+    "Out of stock Items"=>"Art&iacute;culos agotados",
+    "More info"=>"M&aacute;s informaci&oacute;n",
+    "Stock Worth"=>"Stock Worth",
+    "Dispatched Products so far"=>"Productos despachados hasta el momento",
+    "View Dispatches"=>"Ver despachos",
+    "Warehouse Utilization"=>"Utilizaci&oacute;n de almac&eacute;n",
+    "Dispatch done over 30 days"=>"Env&iacute;o hecho m&aacute;s de 30 d&iacute;as",
+    "Dashboard"=>"Tablero",
+    "Products"=>"Productos",
+    "Users"=>"Usuarios",
+    "Suppliers"=>"Proveedores",
+    "Departments"=>"Departamentos",
+    "Out of stock Items"=>"Art&amp;iacute;culos agotados",
+    "More info"=>"M&amp;aacute;s informaci&amp;oacute;n",
+    "Warehouse Utilization"=>"Utilizaci&amp;oacute;n de almac&amp;eacute;n",
+    "Dispatch done over 30 days"=>"Env&amp;iacute;o hecho m&amp;aacute;s de 30 d&amp;iacute;as",
+];

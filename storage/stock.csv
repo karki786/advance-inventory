@@ -1,0 +1,109 @@
+id,product,n,o,p,q,Rubbing,s,t
+21,4QUIRE COUNTER BOOKS,33,20,Any,,,08/28/14 14:40,Books
+22,3QUIRE COUNTER BOOKS,0,14,Any,,,01/22/15 09:53,Books
+23,2QUIRE COUNTER BOOKS,9,1,Any,,,03/13/14 13:44,Books
+24,A4 WRITING PADS,34,5,Administration,,,06/04/14 15:13,Loose Leaf
+25,A5 SHORTHAND BOOKS,26,5,Any,,,03/10/14 15:25,Books
+26,LETTER DELIVERY BOOKS,30,5,Any,,,09/14/13 11:24,Books
+27,IMPORTS STRONG ROOM RECORD BOOKS,9,5,Any,,,02/27/14 14:28,Books
+28,EXPORTS STRONG ROOM RECORD BOOKS,8,5,Any,,,02/22/13 08:23,Books
+29,EQUIPMENT HIREOUT BOOKS,9,5,Any,,,03/13/14 13:38,Books
+30,A3 KHAKI BROWN ENVELOPES ,110,20,Any,,,03/13/14 14:10,Envelopes
+31,A4 KHAKI BROWN ENVELOPES,197,20,Any,,,03/13/14 14:25,Envelopes
+32,A4 BRANDED ENVELOPES,1200,100,Any,,,03/13/14 14:28,Envelopes
+33,PRINTING PAPERS,168,10,Any,,,10/08/14 09:26,Printer & Copier Paper
+34,WHILE YOU WERE AWAY MESSAGE BOOKS,19,5,Any,,,02/23/13 10:39,Books
+35,STICKY NOTES,21,5,Any,,,06/04/14 15:16,Post-it-Notes
+36,PAPER CLIPS 33MM,17,5,Any,,,03/13/14 13:39,Clips
+37,PAPER CLIPS  50MM,9,5,Any,,,03/13/14 13:38,Clips
+38,BOX FILES,309,50,Any,,,01/19/15 12:18,Files and Filing
+39,SPRING FILES,17,5,Any,,,02/17/14 11:42,Files and Filing
+40,BIRO PENS BLUE,37,30,Any,,,01/21/15 11:27,Pens/Pencils
+41,BIRO PENS BLACK,66,30,Any,,,01/21/15 11:28,Pens/Pencils
+42,BIRO PENS RED,151,30,Any,,,03/13/14 14:24,Pens/Pencils
+43,PERMANENT MARKER PENS,105,30,Exports,,,08/28/14 14:51,Pens/Pencils
+44,SMALL STAPLER,0,2,Any,,,12/05/14 15:07,Staplers
+45,STAPLE PINS Small 24/6,5,10,Any,,,08/13/14 12:10,Staplers
+46,STAPLE PINS REMOVER,5,2,Any,,,08/28/14 14:27,Staplers
+47,SMALL PAPER PUNCH,1,1,Any,,,03/13/14 13:37,Paper Punch
+48,PENCILS,4,3,Any,,,09/14/13 11:27,Pens/Pencils
+49,RUBBER BANDS,7,2,Any,,,03/13/14 13:40,Paper Punch
+50,STAMP INK,7,3,Any,,,01/21/15 11:18,Ink
+51,CALCULATOR,2,3,Any,,,03/12/13 15:03,Calculators
+52,SHARPENER,6,1,Any,,,03/13/14 13:50,Sharpener
+53,WHITE OUT,10,5,Any,,,01/24/15 11:11,Correction Fluid
+54,Glue STICK,13,10,Any,,,03/13/14 13:49,Glue
+55,HIGHLIGHTER,14,10,Any,,,09/05/14 09:54,Text Marker
+56,DUST BINS,1,3,Any,,,03/14/13 05:01,Bins
+57,PLAIN NCR 4PART,53,20,Any,,,02/09/15 15:34,Plain
+58,ARRIVAL NOTIFICATION,13,20,Any,,,02/16/15 12:00,Release Order
+59,LETTER HEADS,49,20,Any,,,02/09/15 15:34,Charge Sheets
+60,ULD BOOKS,2,20,Any,,,03/16/15 14:56,Unit Books
+61,PROPERTY DECLARATION BOOKS,47,15,Any,,,01/28/15 11:39,Books
+62,SECURITY DECLARATION BOOKS,105,15,Any,,,03/13/14 14:09,Books
+63,Gate Pass,35,15,Any,,,03/13/14 14:01,Books
+64,TRANSGLOBAL TAPES,697,30,Any,,,04/26/14 11:30,Tape/Adhesives
+65,RUBBER GLOVES,8,0,Any,,,07/29/14 17:01,Gloves
+66,LEATHER GLOVES,0,5,Any,,,06/21/14 10:50,Gloves
+67,Ear Muffs,15,0,Any,,,08/28/14 15:47,Muffs
+68,Staple Pins Big 66/14,4,3,Any,,,02/17/14 12:06,Staplers
+69,Hp320A,2,2,Any,"General Office, Corrina, Egnacia","General Office, Corrina, Egnacia",08/29/14 15:37,Toner and Inkjet Cartridges
+70,Hp321A,4,2,Any,,,06/03/14 10:07,Toner and Inkjet Cartridges
+71,Hp322A,3,2,Any,,,06/03/14 10:08,Toner and Inkjet Cartridges
+72,Hp323A,5,2,Any,,,08/29/14 15:37,Toner and Inkjet Cartridges
+73,Hp540A,8,2,Any,Chris and Mike's printers,Chris and Mike's printers,08/29/14 15:38,Toner and Inkjet Cartridges
+74,Hp541A,3,2,Any,,,08/29/14 15:39,Toner and Inkjet Cartridges
+75,Hp542A,7,2,Any,,,08/29/14 15:39,Toner and Inkjet Cartridges
+76,Hp543A,7,2,Any,,,08/29/14 15:40,Toner and Inkjet Cartridges
+77,CE310,2,1,Any,,Faustin's printer,02/26/13 13:00,Toner and Inkjet Cartridges
+78,CE311,2,1,Any,,,02/26/13 13:01,Toner and Inkjet Cartridges
+79,CE312,2,1,Any,,,02/26/13 13:02,Toner and Inkjet Cartridges
+80,CE313,2,1,Any,,,02/26/13 13:03,Toner and Inkjet Cartridges
+81,CE505A,5,2,Operations,Exports/Imports,Exports/Imports,01/20/15 14:35,Toner and Inkjet Cartridges
+82,CE285A,3,1,Any,Freddie's printer,Freddie's printer,07/18/14 12:18,Toner and Inkjet Cartridges
+83,Q7553A,2,1,Customs,Custom's printer,Custom's printer,03/13/14 13:41,Toner and Inkjet Cartridges
+84,Epson IQ 2190,11,2,Cashiering,Cash office and Assesment,Cash office and Assesment,01/20/15 16:28,Toner and Inkjet Cartridges
+85,Epson IQ 870,5,2,Operations,Exports printers,Exports printers,01/20/15 16:28,Toner and Inkjet Cartridges
+86,A5 Branded Envelopes,550,100,Any,,,03/13/14 14:27,Envelopes
+87,DL Windowed Envelops,50,100,Any,,,09/03/14 14:37,Envelopes
+88,DL Non-Windowed Envelopes,400,100,Any,,,09/03/14 14:38,Envelopes
+89,CF280A,5,2,Customs,Customs Printer,Customs Printer,01/20/15 16:25,Printer & Copier Paper
+90,Project Folders,2,5,Administration,Filling Documents,Filling Documents,11/12/14 11:41,Files and Filing
+91,Erasers,7,2,Administration,Rubbing,Rubbing,03/13/14 13:44,Pens/Pencils
+92,A5Khaki brown  envelopes,140,10,Administration,postage of documents,postage of documents,03/13/14 14:12,Envelopes
+93,safety boots,23,0,Operations,safety,safety,04/11/14 15:07,Safety and Health
+94,Rulers,2,1,Any,Drawing lines,Drawing lines,05/17/14 11:48,Pens/Pencils
+95,Flip chart,40,20,Administration,Trainings,Trainings,03/13/14 14:06,Signs & Banners
+96,White board markers,20,5,Administration,Writing,,08/13/14 08:57,Pens/Pencils
+97,Clip boards,1,1,Any,Support of documents,Support of documents,12/05/14 14:53,Books
+98,Binding covers,32,5,Administration,Binding,Binding,08/28/14 14:46,Files and Filing
+99,Spiral Binders,33,5,Administration,Binding docements together,Binding docements together,08/28/14 14:26,Files and Filing
+100,Company Letter Heads,5,1,Any,Official Letters,Official Letters,10/22/14 15:49,Books
+101,Sign here stickers,2,1,Any,,Marking,02/25/14 12:30,Tape/Adhesives
+102,Adhesives,0,10,Administration,,Labling,02/25/14 12:31,Tape/Adhesives
+103,Clear sellotape,2,1,Administration,Binding,Binding,12/05/14 14:59,Tape/Adhesives
+104,Reflective Jackets,7,10,Any,,Safety,03/01/14 11:30,Safety and Health
+105,ETR Rolls,27,5,Accounts,Printing receipts,Printing receipts,10/10/14 10:16,Printer & Copier Paper
+106,Complimentaries,2500,50,Administration,,,10/22/14 15:51,Post-it-Notes
+107,Security Stickers,1100,200,Security,Labelling,Labelling,03/26/14 08:37,Safety and Health
+108,Paper Tray,6,1,Any,,,06/04/14 15:12,Files and Filing
+109,A5 Laminating Pouch,2,1,Any,,Laminating,03/13/14 12:38,Laminators
+110,A4 Laminating pouch,2,1,Any,Laminating,Laminating,05/12/14 15:04,Laminators
+111,A3 Laminating Pouch,1,1,Any,,laminating,03/13/14 12:48,Laminators
+112,GIANT Stapler,2,1,Any,,Attaching Documents,03/13/14 13:17,Files and Filing
+113,GIANT Paper Punch,0,1,Any,,,03/13/14 13:20,Paper Punch
+114,Scissors,3,1,Any,,,06/04/14 09:17,Paper Punch
+115,Pen Holders,4,1,Administration,,,06/04/14 15:05,Pens/Pencils
+116,A5 Hard Cover Exercise Book,9,2,Administration,,,06/04/14 15:10,Books
+117,Multi punch pockets,28,5,Administration,,,06/04/14 15:12,Files and Filing
+118,File Dividers,4,5,Administration,,,06/04/14 15:15,Files and Filing
+119,Ledger book A4 4Q,4,1,Accounts,,,06/04/14 15:17,Books
+120,Ledger book A4 2Q,4,1,Accounts,,,06/04/14 15:19,Books
+121,Ledger book A4 1Q,4,2,Accounts,,,06/04/14 15:20,Books
+122,CE 410A,6,1,Administration,HR/ADMIN Printer,HR/ADMIN Printer,01/20/15 16:26,Toner and Inkjet Cartridges
+123,CE411A,7,1,Administration,HR/ADMIN Printer,HR/ADMIN Printer,01/20/15 16:26,Toner and Inkjet Cartridges
+124,CE412A,8,1,Administration,HR/ADMIN Printer,HR/ADMIN Printer,01/20/15 16:27,Toner and Inkjet Cartridges
+125,CE413A,8,1,Administration,HR/ADMIN Printer,HR/ADMIN Printer,01/20/15 16:27,Toner and Inkjet Cartridges
+126,Binder Clipps 51mm,6,3,Administration,,,08/28/14 14:29,Clips
+127,Coloured paper clipps,2,1,Administration,,,08/28/14 14:39,Clips
+128,Embossed Sheets,30,5,Administration,,binding,08/28/14 14:48,Files and Filing

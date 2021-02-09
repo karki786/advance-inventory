@@ -1,0 +1,4 @@
+php artisan bugsnag:deploy \
+  --repository "https://Madawar@bitbucket.org/Madawar/stockawesome_nxt.git" \
+  --branch "master" \
+  --revision "ef7bebf8bdb1919d947afe46ab4b2fb4278039b3"

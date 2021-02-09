@@ -1,0 +1,18 @@
+<?php return [
+    "Add/Edit Role"=>"Agregar / Editar Rol",
+    "Role Name"=>"Nombre de rol",
+    "Module"=>"M&oacute;dulo",
+    "Action"=>"Acci&oacute;n",
+    "Permission"=>"Permiso",
+    "Save"=>"Salvar",
+    "Create"=>"Crear",
+    "View"=>"Ver",
+    "View Table Listing"=>"Ver la tabla de la tabla",
+    "Update"=>"Actualizar",
+    "Delete"=>"Borrar",
+    "Created"=>"Creado",
+    "Updated"=>"Actualizado",
+    "View Roles"=>"Ver Roles",
+    "Module"=>"M&amp;oacute;dulo",
+    "Action"=>"Acci&amp;oacute;n",
+];

@@ -1,0 +1,16 @@
+<?php return [
+    "Add/Edit Role"=>"Add/Edit Role",
+    "Role Name"=>"Role Name",
+    "Module"=>"Module",
+    "Action"=>"Action",
+    "Permission"=>"Permission",
+    "Save"=>"Save",
+    "Create"=>"Create",
+    "View"=>"View",
+    "View Table Listing"=>"View Table Listing",
+    "Update"=>"Update",
+    "Delete"=>"Delete",
+    "Created"=>"Created",
+    "Updated"=>"Updated",
+    "View Roles"=>"View Roles",
+];

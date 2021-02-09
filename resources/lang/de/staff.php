@@ -1,0 +1,17 @@
+<?php return [
+    "Edit/Create Users"=>"Benutzer bearbeiten / erstellen",
+    "Create Staff"=>"Mitarbeiter erstellen",
+    "Staff Name"=>"Personal Name",
+    "Email"=>"Email",
+    "Password"=>"Passwort",
+    "User Department"=>"Benutzerabteilung",
+    "User Roles"=>"Benutzerregeln",
+    "You are not allowed to edit this this is displayed here for information purposes"=>"Sie d&uuml;rfen dies nicht bearbeiten. Dies wird hier zu Informationszwecken angezeigt",
+    "Name"=>"Name",
+    "Description"=>"Beschreibung",
+    "Date Created"=>"Datum erstellt",
+    "Date Updates"=>"Datumsaktualisierungen",
+    "Staff"=>"Mitarbeiter",
+    "View Staff Details"=>"Details zum Personal anzeigen",
+    "You are not allowed to edit this this is displayed here for information purposes"=>"Sie d&amp;uuml;rfen dies nicht bearbeiten. Dies wird hier zu Informationszwecken angezeigt",
+];

@@ -1,0 +1,16 @@
+<?php return [
+    "Add A Department"=>"Voeg een afdeling toe",
+    "Department Name"=>"Afdelingsnaam",
+    "Budget Limit"=>"Budgetlimiet",
+    "Department Email"=>"Afdeling E-mail",
+    "Budget Start Date"=>"Budget startdatum",
+    "Budget End Date"=>"Einddatum van het budget",
+    "Save Department"=>"Afdeling sparen",
+    "Add New Department"=>"Nieuwe afdeling toevoegen",
+    "View All Departments"=>"Bekijk alle afdelingen",
+    "Departments And Budgets"=>"Afdelingen en begrotingen",
+    "User"=>"Gebruiker",
+    "Limit"=>"Begrenzing",
+    "Dispatch Count"=>"Verzending Count",
+    "Dispatch Sum"=>"Verzend Sum",
+];

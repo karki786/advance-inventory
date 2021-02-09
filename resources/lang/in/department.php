@@ -1,0 +1,16 @@
+<?php return [
+    "Add A Department"=>"Tambahkan Departemen",
+    "Department Name"=>"nama departemen",
+    "Budget Limit"=>"Batas Anggaran",
+    "Department Email"=>"Email departemen",
+    "Budget Start Date"=>"Tanggal Mulai Anggaran",
+    "Budget End Date"=>"Tanggal Akhir Anggaran",
+    "Save Department"=>"Simpan Departemen",
+    "Add New Department"=>"Tambahkan Departemen Baru",
+    "View All Departments"=>"Lihat Semua Departemen",
+    "Departments And Budgets"=>"Departemen dan Anggaran",
+    "User"=>"Pengguna",
+    "Limit"=>"Membatasi",
+    "Dispatch Count"=>"Jumlah pengiriman",
+    "Dispatch Sum"=>"Jumlah pengiriman",
+];

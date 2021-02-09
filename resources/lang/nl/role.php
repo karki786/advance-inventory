@@ -1,0 +1,17 @@
+<?php return [
+    "Add/Edit Role"=>"Rol toevoegen / bewerken",
+    "Role Name"=>"Rol naam",
+    "Module"=>"module",
+    "Action"=>"Actie",
+    "Permission"=>"Toestemming",
+    "Save"=>"Opslaan",
+    "Create"=>"cre&euml;ren",
+    "View"=>"Uitzicht",
+    "View Table Listing"=>"Bekijk de lijst met tabellen",
+    "Update"=>"Bijwerken",
+    "Delete"=>"Verwijder",
+    "Created"=>"gemaakt",
+    "Updated"=>"bijgewerkt",
+    "View Roles"=>"Rollen bekijken",
+    "Create"=>"cre&amp;euml;ren",
+];
