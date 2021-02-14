@@ -9,7 +9,8 @@
 @endsection
 
 @section('content')
-    @if (count($errors) > 0)
+
+    {{-- @if (count($errors) > 0)
         <div class="alert alert-danger">
             <ul>
                 @foreach ($errors->all() as $error)
@@ -17,7 +18,7 @@
                 @endforeach
             </ul>
         </div>
-    @endif
+    @endif --}}
     @if(isset($invoice))
         {!! Form::model($invoice, ['action' => ['InvoiceController@update', $invoice->id], 'method' =>
         'patch'])

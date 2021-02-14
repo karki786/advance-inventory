@@ -62,12 +62,17 @@ class InvoiceController extends Controller
      */
     public function create(Request $request)
     {
+
         $this->authorize('create', Invoice::class);
+        
         $contacts = [];
+        print_r($req)
         //Check if has salesOrder id and Load Items for Invoice
         if ($request->order) {
+            dd(123);
             $salesOrder = $this->order->find($request->order);
             if ($salesOrder) {
+                
                 $invoice = new Invoice(array(
                     'customerId' => $salesOrder->customerId,
                     'contactId' => $salesOrder->contactId,

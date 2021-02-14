@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Session;
 use App\Company;
 
+
 class TranslationMiddleware
 {
     /**
